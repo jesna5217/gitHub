@@ -1,0 +1,116 @@
+.github_subcontainer{
+    height: 550px;
+    width: 400px;
+    margin-left: 550px;
+    margin-top: 50px;
+    /* background-color: antiquewhite; */
+ }
+ img{
+    height: 75px;
+    width: 75px;
+    margin-left: 150px;
+    margin-top: 25px;
+ }
+ .sign{
+    font-size: 26px;
+    margin-left: 100px;
+ }
+ .input_container{
+    height: 230px;
+    width: 300px;
+    background-color: rgb(193, 227, 248);
+    margin-left: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+
+ }
+ .username_input{
+    border-radius: 5px;
+    height: 30px;
+    width: 95%;
+    margin-top: 10px;
+ }
+ .password_label{
+    margin-top: 20px;
+   display: inline-block;
+ }
+ .forgot_label{
+    color: blueviolet;
+    margin-left: 100px;
+    text-decoration: none;
+ }
+ .sign_in{
+   margin-top: 20px;
+   width: 95%;
+   height: 35px;
+   background-color: green;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ .bottom_container{
+   border: 1px solid grey;
+   height: 70px;
+   width: 300px;
+   margin-left: 40px;
+   margin-top:20px ;
+   border-radius: 10px;
+   padding: 10px;
+ }
+ .passkey_label{
+   text-decoration: none;
+   margin-left: 70px;
+   color: blue;
+   font-weight: 700;
+}
+.newtogithub{
+margin-top: 10px;
+margin-left: 55px;
+}
+.create{
+   color: blue;
+   text-decoration: none;
+}
+.bottom_link_container{
+   margin-left: 396px;
+   margin-top: 50px;
+}
+.bottomlinks{
+color: grey;
+margin-left: 16px;
+text-decoration: none;
+}
+.bottomlinks:hover{
+   background-color:green;
+   color: blue;
+}
+.username_input:focus{
+   border: 3px solid blue;}
+
+
+   @media  (max-width: 600px){
+    .github_subcontainer{
+      margin-left: -20px;
+    }  
+    .bottom_link_container{
+      margin-left: 2px;
+
+      margin-top: 10px;
+   }
+   .bottomlinks{
+      font-size:7px;
+      text-align: center;
+      margin-right: -13px;   }   }
+      @media (min-width: 768px) and (max-width:991px){
+         .github_subcontainer{
+            margin-left: 200px;
+          }  
+          .bottom_link_container{
+            margin-left: 50px;
+      
+            margin-top: 30px;
+         }
+         .bottomlinks{
+            font-size: 13px;
+         }
+      }
