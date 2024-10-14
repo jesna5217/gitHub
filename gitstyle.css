@@ -97,6 +97,10 @@ text-decoration: none;
 
       margin-top: 10px;
    }
+   .forgot_label{
+      font-size: 12px;
+      font-weight: 500;
+   }
    .bottomlinks{
       font-size:7px;
       text-align: center;
@@ -113,4 +117,5 @@ text-decoration: none;
          .bottomlinks{
             font-size: 13px;
          }
+        
       }
